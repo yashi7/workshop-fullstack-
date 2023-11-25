@@ -1,0 +1,87 @@
+body{
+    background-color:greenyellow;
+}
+.h4{
+    background-image: ('download.jpeg')
+}
+
+.h1{
+    background-color: darkolivegreen;
+    color: yellowgreen;
+    background-repeat: repeat;
+    border: 4px solid black;
+    padding: 10px 10px 10px 10px;
+    background-image: url(download.jpeg);
+    margin-top: auto;
+    text-align: center;
+
+}
+.image {
+    background-color: rgb(212, 196, 194);
+    color: rgb(79, 6, 147);
+    position: absolute;
+    left: 50%;
+    /* transform: translate(20%, 20%); */
+    z-index: -1;
+}
+
+.k{
+    bottom: 50px;
+}
+
+.position {
+    position: relative;
+    background-color: rgb(135, 0, 27);
+    left: 30px;
+    border: 3px solid red;
+}
+
+.relative{
+    position: relative;
+    width: 540px;
+    height: 300px;
+    border: 5px solid #733; 
+    transform: translate(20%, 20%);
+    
+}
+
+
+
+
+.text{
+        width: 400px;
+         height: 450px;
+         background-color: gray;
+         position: absolute;
+         border: 5px solid black;
+         margin-top: 250px;
+         margin-left: 500px;
+}
+.text input[type="text"]{
+    width: 88%;
+   position: relative;
+   height: 80px;
+   top: 5px;
+   padding: 3px 6px;
+   font-size: 40px;
+   border: 5px solid black;
+   display: flex;
+   margin: auto;
+   color: black;
+}
+
+.btn input[type="button"]{
+    width: 6%;
+   position: relative;
+   height: 60px;
+   top: 5px;
+   padding: 3px 6px;
+   font-size: 40px;
+   border: 5px solid black;
+   margin: auto;
+   border-radius: 6px;
+   color: black;
+   left: 525px;
+   top: 370px;
+
+}

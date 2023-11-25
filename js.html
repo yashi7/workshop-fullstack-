@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculator</title>
+</head>
+
+<body >
+    <center><h2>CALCULATOR</h2></center>
+    <br>
+    <form action="" style="text-align: center;">
+        <div >
+            <label for="number1">NUM1</label>
+            <input type="number" value="number1" id="number1">
+        </div>
+        <br>
+        <div>
+            <label for="number2">NUM2</label>
+            <input type="number" value="number2" id="number2">
+        </div>
+        <br>
+        <div>
+
+            <input type="button" value="add" onclick="add()">
+            <input type="button" value="sub" onclick="minus()">
+            <input type="button" value="mul" onclick="multiply()">
+            <input type="button" value="div" onclick="divide()">
+        </div>
+        <br>
+        <div>
+            <label for="answer">Result</label>
+            <input type="text" value="answer" readonly id="answer">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
